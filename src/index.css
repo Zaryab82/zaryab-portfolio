@@ -2,15 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Global box sizing */
 * {
   box-sizing: border-box;
 }
 
-html, body {
+/* Prevent accidental horizontal overflow */
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
 
+/* Base theme */
 body {
   background-color: #0b1220; /* blueprint dark */
   color: #e6e6e6;
@@ -28,4 +32,17 @@ body::before {
   background-size: 40px 40px;
   pointer-events: none;
   z-index: -1;
+}
+
+/* ------------------------------ */
+/* Hide horizontal scrollbar (Navbar mobile swipe) */
+/* ------------------------------ */
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE & Edge */
+  scrollbar-width: none; /* Firefox */
 }
