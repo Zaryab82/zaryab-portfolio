@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Zaryab Ali – Professional Portfolio</title>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+<style>
+:root {
+  --primary: #000;
+  --text: #1a1a1a;
+  --muted: #555;
+  --bg: #f8f9fa;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* Toolbar */
+.toolbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--white);
+  padding: 15px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  z-index: 9999;
+  text-align: center;
+}
+
+.btn {
+  background: var(--primary);
+  color: var(--white);
+  border: none;
+  padding: 12px 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#content {
+  max-width: 850px;
+  margin: 100px auto 0 auto;
+}
+
+/* Slide-style PDF page */
+.pdf-page {
+  background: var(--white);
+  padding: 60px 80px;
+  box-sizing: border-box;
+  break-after: page;
+}
+
+/* Typography */
+h1 {
+  font-size: 2.8rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.3rem;
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 5px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.15rem;
+  margin-bottom: 5px;
+}
+
+.sub {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Print rules */
+@media print {
+  body {
+    background: none;
+  }
+  .toolbar {
+    display: none;
+  }
+  #content {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="toolbar" data-html2canvas-ignore="true">
+  <button class="btn" onclick="generatePDF()">Download Complete Portfolio</button>
+</div>
+
+<div id="content">
+
+  <section class="pdf-page">
+    <h1>Muhammad Zaryab Ali</h1>
+    <p class="sub">Civil Engineer | Transportation & Infrastructure | Data Analyst</p>
+
+    <h2>Professional Summary</h2>
+    <p>
+      Civil Engineering undergraduate at NED University (Ranked 8th, CGPA 3.77).
+      Focused on data-driven mobility, infrastructure planning, and sustainable urban design.
+      Skilled in GIS, Python, and Machine Learning for transportation problems.
+    </p>
+
+    <h2>Professional Experience</h2>
+
+    <h3>Engineering Intern – Transportation Design</h3>
+    <p class="sub">NESPAK | June 2025 – July 2025</p>
+    <ul>
+      <li>Prepared road alignments and cross-sections using AutoCAD and Civil 3D.</li>
+      <li>Checked highway designs against international safety standards.</li>
+    </ul>
+
+    <h3>Engineering Intern – Infrastructure</h3>
+    <p class="sub">ZKB (Yellow Line BRT) | Dec 2024 – Jan 2025</p>
+    <ul>
+      <li>Observed bridge foundations and corridor structures.</li>
+      <li>Reviewed bore-logs and coordinated site surveys.</li>
+    </ul>
+  </section>
+
+  <section class="pdf-page">
+    <h2>University Education</h2>
+
+    <h3>Bachelor of Engineering (Civil Engineering)</h3>
+    <p class="sub">
+      NED University of Engineering & Technology, Karachi<br>
+      2022 – 2026 | <span class="highlight">CGPA: 3.77</span> | <span class="highlight">Ranked 8th</span>
+    </p>
+
+    <h3>Core Engineering Curriculum</h3>
+
+    <div class="grid">
+      <div>
+        <p class="highlight">Transport & Planning</p>
+        <ul>
+          <li>Transportation Engineering I & II</li>
+          <li>Architecture & Town Planning</li>
+          <li>Engineering Surveying I & II</li>
+          <li>Geosynthetics Applications</li>
+        </ul>
+
+        <p class="highlight">Project Management</p>
+        <ul>
+          <li>Construction Project Management</li>
+          <li>Quantity & Cost Estimation</li>
+          <li>Communication & Ethics</li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="highlight">Structures & Water</p>
+        <ul>
+          <li>Reinforced Concrete Design I & II</li>
+          <li>Design of Steel Structures</li>
+          <li>Structural Analysis I & II</li>
+          <li>Hydraulics & Water Resources</li>
+          <li>Soil Mechanics I & II</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>Prior Academic Record</h3>
+    <p><strong>Intermediate:</strong> Nabi Bagh ZM Govt Science College | <span class="highlight">College Topper (A+)</span></p>
+    <p><strong>Matriculation:</strong> Aisha Bawany Academy | <span class="highlight">1st Division</span></p>
+  </section>
+
+  <section class="pdf-page">
+    <h2>Certifications: Transport & Design</h2>
+
+    <div class="grid">
+      <div>
+        <h3>Sustainable Cities (JHU)</h3>
+        <ul>
+          <li>Regional Transport Principles</li>
+          <li>Sustainable Neighborhoods</li>
+          <li>Transportation Networks</li>
+          <li>Green Construction</li>
+        </ul>
+
+        <h3>L&T EduTech Series</h3>
+        <ul>
+          <li>Metro Rail Construction</li>
+          <li>Airport Infrastructure</li>
+          <li>Highway Geometry & Pavement</li>
+          <li>Geospatial Technology</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Specialized Engineering</h3>
+        <ul>
+          <li>Smart Cities – EPFL</li>
+          <li>Bitumen Technology – Ponts ParisTech</li>
+          <li>Traffic Impact Assessment – UET Taxila</li>
+          <li>Civil 3D Roads & Highways</li>
+          <li>ETABS, Revit, AutoCAD</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>Technical Projects</h2>
+    <ul>
+      <li>Karsaz Road LOS analysis</li>
+      <li>Rome–Florence Motorway GIS optimization</li>
+      <li>Orangi Nala hydraulic redesign</li>
+    </ul>
+  </section>
+
+  <section class="pdf-page">
+    <h2>Certifications: Management & Data</h2>
+
+    <div class="grid">
+      <div>
+        <h3>Project Management (CU Boulder)</h3>
+        <ul>
+          <li>Foundations & Initiation</li>
+          <li>Planning & Execution</li>
+          <li>Agile Methods</li>
+        </ul>
+
+        <h3>Oracle Primavera P6</h3>
+        <ul>
+          <li>Scheduling & Resources</li>
+          <li>Baseline & Progress Control</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Data Science & AI</h3>
+        <ul>
+          <li>Machine Learning – Stanford</li>
+          <li>Python Programming – Meta</li>
+          <li>Computer Vision – Microsoft Azure</li>
+          <li>Operations Research – NTU Taiwan</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>Environmental & Research</h2>
+    <ul>
+      <li>HSE Engineering – Khalifa University</li>
+      <li>Urban Water Resources – Geneva</li>
+      <li>Environmental Science – Dartmouth</li>
+      <li>Academic Writing</li>
+    </ul>
+
+    <div class="footer">
+      <span>Email: alizaryab938@gmail.com</span>
+      <span>LinkedIn: linkedin.com/in/m-zaryab-ali</span>
+      <span>Karachi, Pakistan</span>
+    </div>
+  </section>
+
+</div>
+
+<script>
+function generatePDF() {
+  const element = document.getElementById("content");
+
+  html2pdf().set({
+    filename: "Muhammad_Zaryab_Ali_Portfolio.pdf",
+    image: { type: "jpeg", quality: 0.95 },
+    html2canvas: {
+      scale: 2,
+      scrollY: 0,
+      useCORS: true
+    },
+    jsPDF: {
+      unit: "pt",
+      format: "a4",
+      orientation: "portrait"
+    },
+    pagebreak: {
+      mode: ["avoid-all"]
+    }
+  }).from(element).save();
+}
+</script>
+
+</body>
+</html>
