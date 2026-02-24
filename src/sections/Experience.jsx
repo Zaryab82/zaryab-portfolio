@@ -5,21 +5,21 @@ export default function Experience() {
       category: "𝑷𝒓𝒐𝒇𝒆𝒔𝒔𝒊𝒐𝒏𝒂𝒍 𝑬𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒆",
       items: [
         {
-          title: "𝑬𝒏𝒈𝒊𝒏𝒆𝒆𝒓𝒊𝒏𝒈 𝑰𝒏𝒕𝒆𝒓𝒏 - 𝑻𝒓𝒂𝒏𝒔𝒑𝒐𝒓𝒕𝒂𝒕𝒊𝒐𝒏 𝑫𝒆𝒔𝒊𝒈𝒏",
+          title: "𝑬𝒏𝒈𝒊𝒏𝒆𝒆𝒓𝒊𝒏𝒈 𝑰𝒏𝒕𝒆𝒓𝒏 - 𝑺𝒕𝒓𝒖𝒕𝒖𝒓𝒆 𝒂𝒏𝒅 𝑰𝒏𝒇𝒓𝒂𝒔𝒕𝒓𝒖𝒄𝒕𝒖𝒓𝒆 𝑫𝒆𝒔𝒊𝒈𝒏",
           organization: "𝑵𝒂𝒕𝒊𝒐𝒏𝒂𝒍 𝑬𝒏𝒈𝒊𝒏𝒆𝒆𝒓𝒊𝒏𝒈 𝑺𝒆𝒓𝒗𝒊𝒄𝒆𝒔 𝒐𝒇 𝑷𝒂𝒌𝒊𝒔𝒕𝒂𝒏 (𝑵𝑬𝑺𝑷𝑨𝑲)",
           duration: "June 2025 – July 2025",
           description: [
-            "Assisted in preparation of road alignment layouts and cross-sectional drawings.",
-            "Reviewed highway design standards and technical documentation.",
+            "Assisted in preparation of Structural layouts and cross-sectional drawings.",
+            "Reviewed Structural design standards and technical documentation.",
             "Gained exposure to horizontal and vertical alignment design workflows.",
-            "Worked with AutoCAD and Civil 3D in a professional transportation design environment.",
+            "Worked with ETABS, SAP, SAFE and AutoCAD in a professional design environment.",
           ],
           files: [
             { name: "Internship Certificate", path: "/assets/nespak.jfif" },
           ],
         },
         {
-          title: "𝑬𝒏𝒈𝒊𝒏𝒆𝒆𝒓𝒊𝒏𝒈 𝑰𝒏𝒕𝒆𝒓𝒏 - 𝑻𝒓𝒂𝒏𝒔𝒑𝒐𝒓𝒕𝒂𝒕𝒊𝒐𝒏 𝑰𝒏𝒇𝒓𝒂𝒔𝒕𝒓𝒖𝒄𝒕𝒖𝒓𝒆",
+          title: "𝑬𝒏𝒈𝒊𝒏𝒆𝒆𝒓𝒊𝒏𝒈 𝑰𝒏𝒕𝒆𝒓𝒏 - 𝑰𝒏𝒇𝒓𝒂𝒔𝒕𝒓𝒖𝒄𝒕𝒖𝒓𝒆",
           organization: "𝒁𝑲𝑩 𝑬𝒏𝒈𝒊𝒏𝒆𝒆𝒓𝒔 & 𝑪𝒐𝒏𝒕𝒓𝒂𝒄𝒕𝒐𝒓𝒔 (𝒀𝒆𝒍𝒍𝒐𝒘 𝑳𝒊𝒏𝒆 𝑩𝑹𝑻 – 𝑱𝒂𝒎 𝑺𝒂𝒅𝒊𝒒 𝑩𝒓𝒊𝒅𝒈𝒆)",
           duration: "December 2024 – January 2025",
           description: [
