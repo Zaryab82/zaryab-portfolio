@@ -19,19 +19,19 @@ export default function Summary() {
             <div className="h-1 w-20 bg-accent mb-4"></div>
 
             <p className="text-xl text-accent font-medium">
-              Civil Engineer | Transportation & Planning Specialist
+              Civil Engineer | Infrastructure & Planning Specialist
             </p>
           </div>
 
           <p className="text-white/90 leading-relaxed text-lg">
             Ranked <span className="text-accent font-semibold">8th</span> in Civil Engineering at NED University with a CGPA of <span className="text-accent font-semibold">3.768</span>.
-            Focused on transportation engineering, Planning and
-            data-driven mobility solutions.
+            Focused on Infrastructure engineering, Planning and
+            data-driven solutions.
           </p>
 
           <div className="bg-surface/60 backdrop-blur-sm p-4 rounded-lg border border-white/10">
             <p className="text-white/80">
-              <span className="text-accent">✓</span> Internship: NESPAK (Transportation Division)<br />
+              <span className="text-accent">✓</span> Internship: NESPAK (Infrastructure)<br />
               <span className="text-accent">✓</span> Site Training: ZKB Engineers & Constructors<br />
               <span className="text-accent">✓</span> Special Interest: Sustainable & Smart Cities
             </p>
