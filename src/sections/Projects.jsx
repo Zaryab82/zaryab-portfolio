@@ -57,6 +57,16 @@ export default function Projects() {
     },
 
     {
+      title: "Quantity and Cost Estimation of 500 sq.yd G+1 Residential Building (Civil Works only)",
+      organization: "Complex Engineering Problem, Quantity Surveying and Cost Estimation",
+      description:
+        "This report presents a detailed quantity and cost estimation for the civil works of a 500 sq.yd G+1 residential building. The study includes quantity take-off for all major construction items, rate analysis based on market prices, and a comprehensive cost estimate for the entire project. The objective is to provide a realistic budget forecast for planning and execution of residential construction projects.",
+      report: "/reports/qce.pdf",
+      excel: "/reports/qce1.xlsx",
+      link: null
+    },
+
+    {
       title: "Transmission Tower Structural Model",
       organization: "Complex Engineering Problem, Structure Analysis-I",
       description:
@@ -169,6 +179,17 @@ export default function Projects() {
                     className="text-accent hover:underline"
                   >
                     View Link
+                  </a>
+                )}
+
+                {project.excel && (
+                  <a
+                    href={project.excel}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-accent hover:underline"
+                  >
+                    View Excel Report
                   </a>
                 )}
 
