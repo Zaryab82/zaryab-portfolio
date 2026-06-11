@@ -19,7 +19,7 @@ export default function Summary() {
             <div className="h-1 w-20 bg-accent mb-4"></div>
 
             <p className="text-xl text-accent font-medium">
-              Civil Engineer | Infrastructure & Planning Specialist
+              Civil Engineer | Infrastructure, Structure & EIA Planning Specialist
             </p>
           </div>
 
@@ -31,7 +31,7 @@ export default function Summary() {
 
           <div className="bg-surface/60 backdrop-blur-sm p-4 rounded-lg border border-white/10">
             <p className="text-white/80">
-              <span className="text-accent">✓</span> Internship: NESPAK (Infrastructure)<br />
+              <span className="text-accent">✓</span> Internship: NESPAK (Structure)<br />
               <span className="text-accent">✓</span> Site Training: ZKB Engineers & Constructors<br />
               <span className="text-accent">✓</span> Special Interest: Sustainable & Smart Cities
             </p>
