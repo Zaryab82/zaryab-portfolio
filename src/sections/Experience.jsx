@@ -5,7 +5,7 @@ export default function Experience() {
       category: "𝑷𝒓𝒐𝒇𝒆𝒔𝒔𝒊𝒐𝒏𝒂𝒍 𝑬𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒆",
       items: [
         {
-          title: "𝑬𝒏𝒈𝒊𝒏𝒆𝒆𝒓𝒊𝒏𝒈 𝑰𝒏𝒕𝒆𝒓𝒏 - 𝑺𝒕𝒓𝒖𝒕𝒖𝒓𝒆 𝒂𝒏𝒅 𝑰𝒏𝒇𝒓𝒂𝒔𝒕𝒓𝒖𝒄𝒕𝒖𝒓𝒆 𝑫𝒆𝒔𝒊𝒈𝒏",
+          title: "𝑬𝒏𝒈𝒊𝒏𝒆𝒆𝒓𝒊𝒏𝒈 𝑰𝒏𝒕𝒆𝒓𝒏 - 𝑺𝒕𝒓𝒖𝒄𝒕𝒖𝒓𝒆 𝑫𝒆𝒔𝒊𝒈𝒏",
           organization: "𝑵𝒂𝒕𝒊𝒐𝒏𝒂𝒍 𝑬𝒏𝒈𝒊𝒏𝒆𝒆𝒓𝒊𝒏𝒈 𝑺𝒆𝒓𝒗𝒊𝒄𝒆𝒔 𝒐𝒇 𝑷𝒂𝒌𝒊𝒔𝒕𝒂𝒏 (𝑵𝑬𝑺𝑷𝑨𝑲)",
           duration: "June 2025 – July 2025",
           description: [
