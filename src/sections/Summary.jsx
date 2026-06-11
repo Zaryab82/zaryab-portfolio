@@ -25,8 +25,8 @@ export default function Summary() {
 
           <p className="text-white/90 leading-relaxed text-lg">
             Ranked <span className="text-accent font-semibold">8th</span> in Civil Engineering at NED University with a CGPA of <span className="text-accent font-semibold">3.768</span>.
-            Focused on Infrastructure engineering, Planning and
-            data-driven solutions.
+            Focused on Infrastructure and Structure engineering, EIA Planning and 
+            data-driven transportation solutions.
           </p>
 
           <div className="bg-surface/60 backdrop-blur-sm p-4 rounded-lg border border-white/10">
