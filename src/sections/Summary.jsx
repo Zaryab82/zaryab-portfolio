@@ -42,7 +42,7 @@ export default function Summary() {
         <div className="flex justify-center items-center">
           <div className="relative">
             <img
-              src="/Mypic2.png"
+              src="/mypic2.png"
               alt="Muhammad Zaryab Ali - Civil Engineer"
               className="w-72 h-72 object-cover rounded-2xl border-4 border-surface shadow-2xl"
             />
